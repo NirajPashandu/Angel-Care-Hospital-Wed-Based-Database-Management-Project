@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regional Hospital</title>
+	<style>
+		/* Style the header */
+		header {
+			background-color: #F7E9D9 ;
+			color: #fff;
+			padding: 20px;
+		}
+		
+		/* Style the navigation bar */
+		nav {
+			background-color:#D3D3D3 ;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-around;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+			border: 1px solid #333;
+			border-radius: 5px;
+		}
+		
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		/* Style the footer */
+		footer {
+			background-color: #F7E9D9 ;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: ;
+}
+button { 
+       background-color: #4CAF50; 
+       width: 100%;
+        color: black; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: #D3D3D3 ;
+    } 
+	
+	.text-center{
+			text-align: center;
+		} 
+		
+	</style>
+</head>
+<body>
+	<header>
+		<h1  class="text-center" style="color: black; font-family: Times New Roman;">Angel Care Hospital</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="find.html">Find A doctor</a></li>
+			<li><a href="location.html">Locations</a></li>
+			<li><a href="request.html">Request a appointment</a></li>
+			<li><a href="login.html">Sign In</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<center> <h1 style="font-family: Times New Roman;"> Hospital Login </h1> </center> 
+    <form action="login_validation.php" method = "POST">	
+        <div class="container"> 
+
+            <label for="username">Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" id="username" required>
+            <label for="password">Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" id="password" required>
+            <button type="submit">Login</button> 
+            <input type="checkbox" checked="checked"> Remember me 
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>   
+		
+	</main>
+	<footer>
+	<div class="news-head pull-left">
+                <h2 style="color: black; font-family: Times New Roman;">Building On Our Strengths</h2>
+                <div class="new-desc" style="color: black; font-family: Times New Roman;">Feel Free to Ask Us.</div>
+    </div>
+	
+	
+	
+		<p style="color: black; font-family: Times New Roman;">&copy; 2023 My Webpage. All rights reserved.</p>
+	</footer>
+	
+</body>
+</html>

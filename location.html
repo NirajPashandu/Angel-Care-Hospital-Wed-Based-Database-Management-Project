@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regional Hospital</title>
+	<!-- Style -->
+	<style>
+		/* Style the header */
+		header {
+			background-color: #F7E9D9 ;
+			color: #fff;
+			padding: 20px;
+		}
+		
+		/* Style the navigation bar */
+		nav {
+			background-color:#D3D3D3 ;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-around;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+			border: 1px solid #333;
+			border-radius: 5px;
+		}
+		
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		/* Style the footer */
+		footer {
+			background-color: #F7E9D9 ;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.text-center{
+			text-align: center;
+		}
+		
+		
+		* {
+			box-sizing: border-box;
+		  }
+
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+		/* Clearfix (clear floats) */
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+
+	</style>
+	<!-- Style -->
+	
+</head>
+<body>
+	<header>
+		<h1  class="text-center" style="color: black;">Angel Care Hospital</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="find.html">Find A doctor</a></li>
+			<li><a href="location.html">Locations</a></li>
+			<li><a href="request.html">Request a appointment</a></li>
+			<li><a href="login.html">Sign In</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<p>Angel Care hospital proudly provides three locations across Ontario</p>
+		<div class="row">
+		
+			<div class="column">
+			<figure>
+				<img src="https://pashand.myweb.cs.uwindsor.ca/COMP-3077-W23/project/img/first_location.png" alt="Snow" style="width:100%">
+			<figcaption>Outlette Campus</figcaption>
+			</div>
+			
+			<div class="column">
+			<figure>
+				<img src="https://pashand.myweb.cs.uwindsor.ca/COMP-3077-W23/project/img/second_location.png" alt="Forest" style="width:100%">
+			<figcaption>Toronto Campus</figcaption>
+			</div>
+			
+			<div class="column">
+			<figure>
+				<img src="https://pashand.myweb.cs.uwindsor.ca/COMP-3077-W23/project/img/third_location.png" alt="Mountains" style="width:100%">
+			<figcaption>Steeles Campus</figcaption>
+			</div>
+			
+		</div>
+		
+	</main>
+	<footer>
+	<div class="news-head pull-left">
+                <h2 style="color: black; font-family: Times New Roman;">Building On Our Strengths</h2>
+                <div class="new-desc" style="color: black; font-family: Times New Roman;">Feel Free to Ask Us.</div>
+    </div>
+	
+	
+	
+		<p style="color: black; font-family: Times New Roman;">&copy; 2023 My Webpage. All rights reserved.</p>
+	</footer>
+	
+</body>
+</html>
